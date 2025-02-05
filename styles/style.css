@@ -136,7 +136,7 @@ ol {
   width: 19px;
   height: 19px;
   margin-right: 5px;
-  position: relative;
+  display: flex;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -144,9 +144,10 @@ ol {
   background-color: #ffffff;
   width: 13px;
   height: 13px;
-  position: absolute;
-  top: 2px;
-  left: 2px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin-left: 2px;
 }
 
 .content__details {
